@@ -1,9 +1,8 @@
 {
 	"required": true,
 	"package": "com.emeraldingot.demo.mixin",
-	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"RunArgsMixin"
+		"ClientMainMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

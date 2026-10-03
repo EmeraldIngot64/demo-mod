@@ -3,7 +3,7 @@
 	"id": "demo",
 	"version": "${version}",
 	"name": "Demo Mod",
-	"description": "Wait, I thought I payed for Minecraft!",
+	"description": "Wait, I thought I paid for Minecraft!",
 	"authors": [
 		"EmeraldIngot"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "",
 		"sources": "https://github.com/EmeraldIngot/demo-mod"
 	},
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"icon": "assets/demo/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -24,10 +24,6 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.0",
-		"minecraft": ">=1.18",
-		"java": ">=17"
-	},
-	"breaks": {
-		"minecraft": ">=1.20.5"
+		"minecraft": ">=1.18 <=1.20.4"
 	}
 }
