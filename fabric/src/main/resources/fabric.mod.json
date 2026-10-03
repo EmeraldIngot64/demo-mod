@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.emeraldingot.demo.Demo"
+			"com.emeraldingot.demo.DemoFabric"
 		]
 	},
 	"mixins": [

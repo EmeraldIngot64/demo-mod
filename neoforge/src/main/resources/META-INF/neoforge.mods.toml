@@ -1,11 +1,11 @@
-license="GPL-3.0"
+license="GPL-3.0-only"
 
 [[mods]]
 
 modId="demo"
 
 
-version="5.0.0"
+version="6.0.0"
 
 # A display name for the mod
 displayName="Demo Mod"
@@ -14,7 +14,7 @@ iconFile="assets/demo/icon.png"
 authors="EmeraldIngot64"
 
 description='''
-Wait, I thought I payed for Minecraft!
+Wait, I thought I paid for Minecraft!
 '''
 
 [[mixins]]
