@@ -1,22 +1,17 @@
 package com.emeraldingot.demo;
 
-import net.fabricmc.api.ModInitializer;
-
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Demo implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("demo");
+@Mod(Demo.MOD_ID)
+public class Demo {
+	public static final String MOD_ID = "demo";
 
-	@Override
-	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+	public static final Logger LOGGER = LoggerFactory.getLogger("demo");
 
+	public Demo(IEventBus modEventBus) {
 		LOGGER.info("Initialized Demo Mod! (Why would you want this?)");
 	}
 }
